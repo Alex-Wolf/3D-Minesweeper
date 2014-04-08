@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controllers/Intermediate/MainController2.js">
+    <Files>
+      <File FileName="Assets/Scripts/Controllers/Beginner/MainController.js" Line="2557" Column="95" />
+      <File FileName="Assets/Scripts/Controllers/Intermediate/MainController2.js" Line="2554" Column="96" />
+      <File FileName="Assets/Scripts/Controllers/Expert/MainController3.js" Line="1534" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

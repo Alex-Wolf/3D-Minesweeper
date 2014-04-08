@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{ADD65E28-B3DE-3282-6E48-A57174034105}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_GAMECENTER;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_1_2;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Controllers\Beginner\InputController.js" />
+     <Compile Include="Assets\Scripts\Controllers\Beginner\MainController.js" />
+     <Compile Include="Assets\Scripts\Controllers\CameraController.js" />
+     <Compile Include="Assets\Scripts\Controllers\Expert\InputController3.js" />
+     <Compile Include="Assets\Scripts\Controllers\Expert\MainController3.js" />
+     <Compile Include="Assets\Scripts\Controllers\Intermediate\InputController2.js" />
+     <Compile Include="Assets\Scripts\Controllers\Intermediate\MainController2.js" />
+     <Compile Include="Assets\Scripts\Cubes\BasicCube.js" />
+     <Compile Include="Assets\Scripts\Cubes\Cube.js" />
+     <Compile Include="Assets\Scripts\Cubes\Cube0.js" />
+     <Compile Include="Assets\Scripts\Cubes\Cube0Blank.js" />
+     <Compile Include="Assets\Scripts\Cubes\Cube1.js" />
+     <Compile Include="Assets\Scripts\Cubes\Cube2.js" />
+     <Compile Include="Assets\Scripts\Cubes\Cube3.js" />
+     <Compile Include="Assets\Scripts\Cubes\Cube4.js" />
+     <Compile Include="Assets\Scripts\Cubes\Cube5.js" />
+     <Compile Include="Assets\Scripts\Cubes\Cube6.js" />
+     <Compile Include="Assets\Scripts\Cubes\FlagCube.js" />
+     <Compile Include="Assets\Scripts\Cubes\MineCube.js" />
+     <Compile Include="Assets\Scripts\Cubes\SelectedCube.js" />
+     <Compile Include="Assets\Scripts\Database Stuff\HSController.js" />
+     <Compile Include="Assets\Scripts\Database Stuff\HSController2.js" />
+     <Compile Include="Assets\Scripts\Database Stuff\HSController3.js" />
+     <Compile Include="Assets\Scripts\Database Stuff\HSControllerGame.js" />
+     <Compile Include="Assets\Scripts\Database Stuff\HSControllerGame2.js" />
+     <Compile Include="Assets\Scripts\Database Stuff\HSControllerGame3.js" />
+     <Compile Include="Assets\Scripts\Database Stuff\md5functions.js" />
+     <Compile Include="Assets\Scripts\Menu\MinesweeperCamera.js" />
+     <Compile Include="Assets\Scripts\Menu\TextBehavior.js" />
+     <Compile Include="Assets\Scripts\Other\FadeTexture.js" />
+     <Compile Include="Assets\Scripts\Other\MusicIconBeginner.js" />
+     <Compile Include="Assets\Scripts\Other\MusicIconExpert.js" />
+     <Compile Include="Assets\Scripts\Other\MusicIconIntermediate.js" />
+     <Compile Include="Assets\Scripts\Other\TextHint.js" />
+     <Compile Include="Assets\Scripts\Other\Variables.js" />
+     <Compile Include="Assets\Scripts\Other\VolumeIconBeginner.js" />
+     <Compile Include="Assets\Scripts\Other\VolumeIconExpert.js" />
+     <Compile Include="Assets\Scripts\Other\VolumeIconIntermediate.js" />
+     <Compile Include="Assets\Scripts\Squares\BasicSquare.js" />
+     <Compile Include="Assets\Scripts\Squares\FlagSquare.js" />
+     <Compile Include="Assets\Scripts\Squares\MineSquare.js" />
+     <Compile Include="Assets\Scripts\Squares\Square.js" />
+     <Compile Include="Assets\Scripts\Squares\Square0.js" />
+     <Compile Include="Assets\Scripts\Squares\Square0Blank.js" />
+     <Compile Include="Assets\Scripts\Squares\Square1.js" />
+     <Compile Include="Assets\Scripts\Squares\Square2.js" />
+     <Compile Include="Assets\Scripts\Squares\Square3.js" />
+     <Compile Include="Assets\Scripts\Squares\Square4.js" />
+     <Compile Include="Assets\Scripts\Squares\Square5.js" />
+     <Compile Include="Assets\Scripts\Squares\Square6.js" />
+     <Compile Include="Assets\UnitySerializer\Scripts\JSONPauseMenu.js" />
+     <Compile Include="Assets\UnitySerializer\Scripts\Movement.js" />
+     <Compile Include="Assets\UnitySerializer\Scripts\PauseMenu.js" />
+     <Compile Include="Assets\UnitySerializer\Scripts\Spawner.js" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Plugins\whydoidoit.com\license.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\My Skyboxes\sky19\cave3.rwx.txt" />
+     <None Include="Assets\UnitySerializer\readme.txt" />
+     <None Include="Assets\My Skyboxes\sky20\tron5.rwx.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{2BF26DB6-CAE9-4170-A0A2-75B7B6BF26BF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{08DCBEF3-5E90-FDAE-411E-A18D7D921C43}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
